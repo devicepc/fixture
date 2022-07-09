@@ -119,3 +119,12 @@ for(a of  roundof16h){
             }  }
         s();
     })}
+
+    // scrool up
+document.getElementById("ir-arriba").addEventListener("click",scrollUp);
+function scrollUp(){
+    let currentScroll = document.documentElement.scrollTop;
+    if (currentScroll >0){
+        window.scrollTo(0,0);
+    }
+}

@@ -42,3 +42,46 @@ for(a of  sem1){
                     s();
                 })}
         
+
+
+    // finales 
+    let finalClas1 = document.querySelectorAll('.semiQatarwin1');
+let finalClas2 = document.querySelectorAll('.semiQatarwin2');
+  
+
+for(a of  finalClas1){
+  a.addEventListener('click', function(){
+    let finalClasA = this.innerHTML; 
+      function s(){
+          const finalClasa = document.getElementById("FinalGame1").innerText;
+              document.getElementById("FinalGame1").innerHTML= finalClasA;
+            }
+      s();
+  })}
+
+  for(a of  finalClas2){
+    a.addEventListener('click', function(){
+      let finalClasB = this.innerHTML; 
+        function s(){
+            const finalClasb = document.getElementById("FinalGame2").innerText;
+                document.getElementById("FinalGame2").innerHTML= finalClasB;
+              }
+        s();
+    })}
+
+    // final 
+    let finalwin =document.querySelectorAll('.FinalGame1');
+
+    for(a of  finalwin){
+      a.addEventListener('click', function(){
+        let finalWin = this.innerHTML; 
+          function s(){
+              const finalClasb = document.getElementById("FinalWin").innerText;
+                  document.getElementById("FinalWin").innerHTML= " is : "+finalWin;
+                  /* let x = ;
+                  let second = x != finalwin;
+                  document.getElementById("FinalSecond").innerHTML= " is : "+second; */
+                }
+          s();
+      })}
+  
